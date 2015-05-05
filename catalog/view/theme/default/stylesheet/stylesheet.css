@@ -6,6 +6,7 @@ body {
 	line-height: 20px;
 	width: 100%;
 	background-color: #000;
+	font-weight: bold;
 }
 h1, h2, h3, h4, h5, h6 {
 	color: #444;
@@ -106,7 +107,7 @@ div.required .control-label:before {
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 #top .btn-link:hover, #top-links a:hover {
-	color: #FFD700;
+	text-shadow: 0 0 5px #FFD700;
 }
 #top-links .dropdown-menu a {
 	text-shadow: none;
@@ -212,7 +213,7 @@ div.required .control-label:before {
 }
 #menu .nav > li > a:hover, #menu .nav > li.open > a {
 	background-color: rgba(0, 0, 0, 0.1);
-	color: #FFD700;
+	text-shadow: 0 0 5px #FFD700;
 }
 #menu .dropdown-menu {
 	padding-bottom: 0;
@@ -321,8 +322,8 @@ div.required .control-label:before {
 footer {
 	margin-top: 30px;
 	padding-top: 30px;
-	background-color: #303030;
-	border-top: 1px solid #a50000;
+	background-color: #000;
+	border-top: 1px solid #000;
 	color: #e2e2e2;
 }
 footer hr {
@@ -747,4 +748,13 @@ h2.price {
 
 .navbar-nav>li {
 	margin-left: 80px;
+	-webkit-transition: all 0.5s ease;
 }
+
+.navbar-nav>li:hover {
+           /*Glow*/
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}
+

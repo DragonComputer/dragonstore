@@ -75,7 +75,7 @@
         <div id="logo">
           <?php if ($logo) { ?>
           <a href="<?php echo $home; ?>" class="special-logo-class"><!-- <img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /> -->
-		<span style="font-weight: 400;">STORE</span>.DRAGON
+		<span style="font-weight: 400;">STORE</span>.DRAGON<span style="font-weight: 400;color: #353535">.COMPUTER</span>
 	  </a>
           <?php } else { ?>
           <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
