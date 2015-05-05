@@ -75,8 +75,7 @@ div.required .control-label:before {
 .dropdown-menu li > a:hover {
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #000;
 	background-repeat: repeat-x;
 }
 /* top */
@@ -94,10 +93,8 @@ div.required .control-label:before {
 	text-align: left;
 }
 #top #currency .currency-select:hover {
-	text-shadow: none;
+	text-shadow: 0 0 5px #FFD700;
 	color: #ffffff;
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
 	background-repeat: repeat-x;
 }
 #top .btn-link, #top-links li, #top-links a {
@@ -114,6 +111,7 @@ div.required .control-label:before {
 }
 #top-links .dropdown-menu a:hover {
 	color: #FFF;
+	text-shadow: 0 0 5px #FFD700;
 }
 #top .btn-link strong {
 	font-size: 14px;
@@ -427,13 +425,11 @@ footer h5 {
 .btn-primary {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #000;
 	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
-	background-color: #1f90bb;
+	background-color: #000;
 	background-position: 0 -15px;
 }
 .btn-warning {
@@ -758,3 +754,8 @@ h2.price {
   box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
 }
 
+.btn-primary:hover {
+	text-shadow: 0 0 5px #FFD700;
+	border: 1px solid #cccccc;
+	box-shadow: 0 0 10px #FFD700;
+}
