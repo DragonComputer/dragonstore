@@ -14,7 +14,7 @@
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-      <h2><?php echo $heading_title; ?></h2>
+      <!-- <h2><?php echo $heading_title; ?></h2>
       <?php if ($thumb || $description) { ?>
       <div class="row">
         <?php if ($thumb) { ?>
@@ -24,7 +24,7 @@
         <div class="col-sm-10"><?php echo $description; ?></div>
         <?php } ?>
       </div>
-      <hr>
+      <hr> -->
       <?php } ?>
       <?php if ($categories) { ?>
       <h3><?php echo $text_refine; ?></h3>
@@ -53,8 +53,8 @@
       <?php } ?>
       <?php } ?>
       <?php if ($products) { ?>
-      <p><a href="<?php echo $compare; ?>" id="compare-total"><?php echo $text_compare; ?></a></p>
-      <div class="row">
+      <!-- <p><a href="<?php echo $compare; ?>" id="compare-total"><?php echo $text_compare; ?></a></p> -->
+      <div class="row" style="display:none;">
         <div class="col-md-4">
           <div class="btn-group hidden-xs">
             <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="<?php echo $button_list; ?>"><i class="fa fa-th-list"></i></button>
