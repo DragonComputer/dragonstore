@@ -831,6 +831,10 @@ a.thumbnail:hover {
 	border-top: 0px solid #000;
 }
 
+.table>tbody>tr:hover {
+	background-color: #000;
+}
+
 .img-thumbnail {
 	background-color: #000;
 	border: 1px solid #1d1d1d;
