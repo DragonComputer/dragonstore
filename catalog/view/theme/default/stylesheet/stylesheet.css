@@ -861,3 +861,8 @@ table, thead, tr, td {
 	background-color: #000;
 	border-color: #1d1d1d;
 }
+
+.special-50px-logo {
+	position: absolute;
+	left: calc(50vw - 50px);
+}
