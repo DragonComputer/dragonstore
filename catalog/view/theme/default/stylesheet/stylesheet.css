@@ -842,6 +842,7 @@ a.thumbnail:hover {
 
 table, thead, tr, td {
 	border: 1px solid #1d1d1d !important;
+	background-color: #000;
 }
 
 .btn-default:hover {
